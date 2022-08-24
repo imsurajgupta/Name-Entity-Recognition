@@ -1,3 +1,4 @@
+from tkinter import FALSE
 from flask import Flask,url_for,render_template,request
 import spacy
 from spacy import displacy
@@ -33,4 +34,4 @@ def extract():
 
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=FALSE)
